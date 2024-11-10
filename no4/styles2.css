@@ -4,16 +4,22 @@
 .tech-dept
 {
   background-color: #e0f7e9;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .marketing-dept
 {
   background-color: #e3f2fd;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .hr-dept
 {
   background-color: #ffe0b2;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 /* 
