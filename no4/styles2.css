@@ -34,12 +34,12 @@
 /* 
  *  后代选择器
  */
-.department .employee-card 
+/* .department .employee-card 
 {
   color: #424242;
   padding: 10px;
   border-bottom: 1px solid #e0e0e0;
-}
+} */
 
 .tech-dept .employee-card
 {
@@ -49,6 +49,13 @@
 }
 
 .marketing-dept .employee-card
+{
+  color: #424242;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.hr-dept .employee-card
 {
   color: #424242;
   padding: 10px;
@@ -73,7 +80,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.employee-card:nth-child(odd) 
+.employee-card:nth-child(even) 
 {
   background-color: #f5f5f5;
 }
