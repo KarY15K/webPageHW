@@ -36,7 +36,7 @@ const data = {
   
       // 如果分钟数为50，输出“还差十秒一分钟”
       if (this.minutes === 20 || this.minutes === 50) {
-        timeString += "\n站起来休息一下吧！";
+        timeString += "\n站起来休息一下吧！ ";
       }
   
       return timeString;
